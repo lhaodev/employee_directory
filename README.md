@@ -55,4 +55,4 @@ The link to the github repository is: https://github.com/lhaodev/employee_direct
 
 ## Deployment
 
-The link to the deployed application is: https://safe-reef-98186.herokuapp.com/
+The link to the deployed application is: https://lhaodev.github.io/employee_directory/
