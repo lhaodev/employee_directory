@@ -3,12 +3,7 @@ import React, { Component } from 'react'
 //import ResultTable from "./components/resultTable";
 import SearchBar from "./searchBar";
 import API from "../utils/API"
-//import "./navbar.css";
-
-
-
-
-
+import "./resultTable.css";
 
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -128,25 +123,8 @@ class ResultTable extends Component {
                 }
             })
             this.setState({ results: sortedEmployees, sort: { direction: "desc" } })
-
         }
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     render() {
         return (
